@@ -1,0 +1,41 @@
+h1 {
+    color: greenyellow;
+}
+
+h3 {
+    color: pink;
+}
+
+#p1 {
+    color: magenta;
+}
+
+#p2 {
+    color: orange;
+}
+
+a {
+    color: magenta;
+}
+
+.tacos {
+    font-size: 25px;
+}
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centertxt {
+    text-align: center;
+}
+
+.space {
+    margin-top: 100px;
+}
+
+p {
+    font-size: 20px;
+}
