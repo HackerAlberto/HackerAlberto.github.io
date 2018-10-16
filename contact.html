@@ -32,7 +32,7 @@ crossorigin="anonymous">
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="services.html">Services</a>
                     <a class="nav-item nav-link" href="team.html">Team</a>
                     <a class="nav-item nav-link" href="contact.html">Contact Us</a>
@@ -46,19 +46,17 @@ crossorigin="anonymous">
                     </div>
                   </div>
 
-                  <div id="map"></div>
-                  <script>
-                        // Initialize and add the map
-                        function initMap() {
-                          // The location of Uluru
-                          var uluru = {lat: -25.344, lng: 131.036};
-                          // The map, centered at Uluru
-                          var map = new google.maps.Map(
-                              document.getElementById('map'), {zoom: 4, center: uluru});
-                          // The marker, positioned at Uluru
-                          var marker = new google.maps.Marker({position: uluru, map: map});
-                        }
-                            </script>
-                            <script async defer
-                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5uVqv2WcFifPYEwnz00HKpCY89UlVeLQ&callback=initMap">
-                            </script>
+                  <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <h2>We are located at:</h2>
+                            </div>
+                        <div class="col-sm-6">  
+
+                  <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=global%20hub%20kellogg&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">pure black</a></div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+
+                  <footer class="footer">
+                        <div>
+                            <span style="align-center">© 2018 Copyright AN Design & Co.</span>
+                        </div>
+                    </footer>
